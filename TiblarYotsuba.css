@@ -305,3 +305,31 @@ h1, h4, h5 {
 .sidebar-icon {
     text-shadow: 0 0 0.5em #e424c100;
 }
+/*Hover over name in DMS*/
+.dm-thread:hover {
+    background: #b7c5d9!important;
+}
+/*chat*/
+.dm-input {
+    background: #ffffff!important;
+}
+/*DM background*/
+.dm-messages {
+    background: #d6daf0!important;
+    color: #000;
+}
+/*Actual boxes with text in them*/
+.dm-text {
+    background-color: #b7c5d9!important;
+    border-radius: 0!important;
+    color: #000;
+}
+/*container with the input field because for some reason it needs to exist*/
+.dm-input-container {
+    background: #35363800;
+}
+/*Text input field*/
+.dm-textarea {
+    background: #ffffff!important;
+    color: #000;
+}
