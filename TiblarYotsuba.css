@@ -250,8 +250,8 @@ h1, h4, h5 {
 }
 /*Buttons in messages tab*/
 .btn-faded {
-    background: #00000026;
-    color: hsla(0,0%,78.4%,.5)!important;
+    background: #d0d0d0;
+    color: hsl(0, 0%, 0%)!important;
     border-radius: 0px;
 }
 /*Emoji popout in dashboard*/
