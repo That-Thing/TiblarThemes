@@ -333,3 +333,71 @@ h1, h4, h5 {
     background: #ffffff!important;
     color: #000;
 }
+/*The profile preview page*/
+#profile-preview {
+    background-color: #d6daf0!important;
+    border: 0px solid #b7c5d9;
+}
+/*The little glowing active thing in the sidebar*/
+.sidebar-active {
+    border-color: #6193d8;
+}
+/*Weird thing behind the text input field in DMs*/
+.dm-input-container {
+    background: #35363800!important;
+}
+/*Selected shit in dropdown menus*/
+select.form-control {
+    color: maroon!important;
+    border-radius: 0px;
+}
+/*Active tab*/
+.tabs li.is-active a {
+    color: maroon!important;
+    border-bottom-color: maroon!important;
+}
+/*reblog popup*/
+.modal-content {
+    background-color: #d6daf0!important;
+    border: 1px solid #b7c5d9!important;
+    border-radius: 0!important;
+    border-top: none!important;
+    border-left: none!important;
+}
+/*Custom file label in folder*/
+.custom-file-label, .custom-file-label:after {
+    background-color: #b7c5d9!important;
+    color: #000000!important;
+    border-radius: 0!important;
+}
+/*Button*/
+.btn-connect {
+    color: #000000!important;
+    border-color: #becdd900!important;
+    border-radius: 0px!important;
+    background: #d0d0d0!important;
+    position: relative!important;
+    margin-left: -1em!important;
+    padding-right: 1em!important;
+}
+/*auth box on login page*/
+.auth-box {
+    box-shadow: 10px 10px 5px #0000005e;
+}
+/*Round buttons are stupid*/
+.filter-pill.active {
+    background: rgba(100,100,110,.4)!important;
+    border-radius: 0px!important;
+}
+/*Graph X and Y axis labels*/
+.apexcharts-xaxis-label, .apexcharts-yaxis-label {
+    fill: #000!important;
+}
+/*Tables actually visible*/
+.table td, .table th {
+    border-top: 1px solid #000000!important;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #000000;
+}
