@@ -3,7 +3,7 @@
 
 /*The body*/
 body {
-    background: #ffe url(https://onee.ch/.static/fade.png) top center repeat-x!important;
+    background: #eef2ff url(https://onee.ch/.static/fade-blue.png) top center repeat-x!important;
     color: #000;
     font-size: 11pt;
     margin-left: 0;
@@ -14,13 +14,13 @@ body {
 
 /*main post card BG*/
 .card {
-    background-color: #f0e0d6;
-    border: 1px solid #d9bfb7;
+    background-color: #d6daf0;
+    border: 1px solid #b7c5d9;
     border-radius: 0!important;
     border-top: none;
     border-left: none;
-    box-shadow: 0px 0px #d9bfb700!important;
-    border-color: #d9bfb7!important;
+    box-shadow: 0px 0px #b7c5d900!important;
+    border-color: #b7c5d9!important;
 }
 /*Date*/
 #profile-preview .card-title h6, .card-title p {
@@ -51,7 +51,7 @@ a {
 }
 /*Card footer???(basically background2: electric boogaloo*/
 .card-footer {
-    background-color: #f0e0d6!important;
+    background-color: #d6daf0!important;
 }
 /*Expand commment button*/
 #profile-preview .card-footer .text-purple, .card-footer .text-purple {
@@ -63,8 +63,8 @@ a {
 }
 /*Open post in new tab*/
 .post-link {
-    border-color: #844d4d #8e5151 transparent transparent;
-    background: #5c3434;
+    border-color: #4d4d84 #51518e transparent transparent;
+    background: #34345c;
 }
 /*Top search bar*/
 .form-control {
@@ -88,8 +88,8 @@ a {
 }
 /*Profile header*/
 .profile-header {
-    background-color: #f0e0d6;
-    border: 1px solid #d9bfb7;
+    background-color: #d6daf0;
+    border: 1px solid #b7c5d9;
     border-radius: 0!important;
     border-top: none;
     border-left: none;
@@ -101,8 +101,8 @@ select.form-control {
 }
 /*Profile settings dropdown*/
 .dropdown-menu {
-    background-color: #f0e0d6;
-    border: 1px solid #d9bfb7;
+    background-color: #d6daf0;
+    border: 1px solid #b7c5d9;
     border-radius: 0!important;
     border-top: none;
     border-left: none;
@@ -113,27 +113,27 @@ select.form-control {
 }
 /*Hovering over thing in dropdown*/
 .dropdown-item:focus, .dropdown-item:hover {
-    background-color: #d9bfb7!important;
+    background-color: #b7c5d9!important;
 }
 /*Notification badge*/
 .badge {
-    background: #ea8!important;
+    background: #81A2BE!important;
     color: #383838!important;
     box-shadow: 0 0 0em #e424c1;
 }
 .badge-danger {
-    background: #ea8!important;
+    background: #568fbf;
     padding: .75em;
     border-radius: 0em;
 }
 /*Emoji popout*/
 .emoji-button {
-    background: #f0e0d6;
+    background: #d6daf0;
     border: 0px solid #1a1a1a;
 }
 /*Removing the stupid bar on posts*/
 .card-title {
-    color: #5c3434!important;
+    color: #34345c!important;
     background-image: url(46014d3c3677dd0f.css);
     background-repeat: repeat-x;
     background-position: bottom;
@@ -160,45 +160,45 @@ h1, h4, h5 {
 /*Cards in dashboard*/
 /* .card-body {
     flex: 1 1 auto;
-    background-color: #f0e0d6!important;
-    border: 1px solid #d9bfb7!important;
+    background-color: #d6daf0!important;
+    border: 1px solid #b7c5d9!important;
     border-radius: 0!important;
     border-top: none!important;
     border-left: none!important;
-    border-color: #d9bfb7!important;
+    border-color: #b7c5d9!important;
     padding: 1.25rem;
 } */
 /*Card footer 2: electric boogaloo*/
 /* .card-footer {
-    background-color: #f0e0d6!important;
-    border: 1px solid #d9bfb7!important;
+    background-color: #d6daf0!important;
+    border: 1px solid #b7c5d9!important;
     border-radius: 0!important;
     border-top: none!important;
     border-left: none!important;
-    border-color: #d9bfb7!important;
+    border-color: #b7c5d9!important;
 } */
 /*The full post card. Apparently the code above was causing it to divide into the card footer and the main body of the card so just selecting everything seems to work.*/
 .post-card {
-    background-color: #f0e0d6!important;
-    border: 1px solid #d9bfb7!important;
+    background-color: #d6daf0!important;
+    border: 1px solid #b7c5d9!important;
     border-radius: 0!important;
     border-top: none!important;
     border-left: none!important;
-    border-color: #d9bfb7!important;
+    border-color: #b7c5d9!important;
 }
 
 /*Dashboard dropdown*/
 .navbar-nav .dropdown-menu {
-    background-color: #f0e0d6!important;
-    border: 1px solid #d9bfb7!important;
+    background-color: #d6daf0!important;
+    border: 1px solid #b7c5d9!important;
     border-radius: 0!important;
     border-top: none!important;
     border-left: none!important;
 	color: #000!important;
 }
 .dropdown-menu {
-    background-color: #f0e0d6!important;
-    border: 1px solid #d9bfb7!important;
+    background-color: #d6daf0!important;
+    border: 1px solid #b7c5d9!important;
     border-radius: 0!important;
     border-top: none;
     border-left: none;
@@ -231,21 +231,21 @@ h1, h4, h5 {
 }
 /*NSFW alert*/
 .alert-error {
-    background: #d9bfb7;
+    background: #b7c5d9;
 	padding: 10px 20px;
-    border: 1px solid #ff3737;
+    border: 1px solid #3751ff;
     border-radius: 0px;
     color: #3751ff;
 }
 /*The sidebar. Pretty self explanitory*/
 .sidebar {
-    background-color: #f0e0d6!important;
-    border: 0px solid #d9bfb7!important;
+    background-color: #d6daf0!important;
+    border: 0px solid #b7c5d9!important;
     border-radius: 0!important;
 }
 /*The logo*/
 .logo {
-    color: #b96161!important;
+    color: #6180b9!important;
     background-image: none;
 }
 /*Buttons in messages tab*/
@@ -256,8 +256,8 @@ h1, h4, h5 {
 }
 /*Emoji popout in dashboard*/
 .bg-white, .card {
-    background-color: #f0e0d6!important;
-    border: 1px solid #d9bfb7;
+    background-color: #d6daf0!important;
+    border: 1px solid #b7c5d9;
     border-radius: 0!important;
     border-top: none;
     border-left: none;
@@ -299,7 +299,7 @@ h1, h4, h5 {
 }
 /*Tiblar boost info BG*/
 .bg-light {
-    background-color: #d9bfb7!important;
+    background-color: #b7c5d9!important;
 }
 /*Disable glow for shit in sidebar*/
 .sidebar-icon {
@@ -307,7 +307,7 @@ h1, h4, h5 {
 }
 /*Hover over name in DMS*/
 .dm-thread:hover {
-    background: #d9bfb7!important;
+    background: #b7c5d9!important;
 }
 /*chat*/
 .dm-input {
@@ -315,12 +315,12 @@ h1, h4, h5 {
 }
 /*DM background*/
 .dm-messages {
-    background: #f0e0d6!important;
+    background: #d6daf0!important;
     color: #000;
 }
 /*Actual boxes with text in them*/
 .dm-text {
-    background-color: #d9bfb7!important;
+    background-color: #b7c5d9!important;
     border-radius: 0!important;
     color: #000;
 }
@@ -335,8 +335,8 @@ h1, h4, h5 {
 }
 /*The profile preview page*/
 #profile-preview {
-    background-color: #f0e0d6!important;
-    border: 0px solid #d9bfb7;
+    background-color: #d6daf0!important;
+    border: 0px solid #b7c5d9;
 }
 /*The little glowing active thing in the sidebar*/
 .sidebar-active {
@@ -358,15 +358,15 @@ select.form-control {
 }
 /*reblog popup*/
 .modal-content {
-    background-color: #f0e0d6!important;
-    border: 1px solid #d9bfb7!important;
+    background-color: #d6daf0!important;
+    border: 1px solid #b7c5d9!important;
     border-radius: 0!important;
     border-top: none!important;
     border-left: none!important;
 }
 /*Custom file label in folder*/
 .custom-file-label, .custom-file-label:after {
-    background-color: #d9bfb7!important;
+    background-color: #b7c5d9!important;
     color: #000000!important;
     border-radius: 0!important;
 }
@@ -388,8 +388,6 @@ select.form-control {
 .filter-pill.active {
     background: rgba(100,100,110,.4)!important;
     border-radius: 0px!important;
-    color: maroon!important;
-    border: 1px solid maroon!important;
 }
 /*Graph X and Y axis labels*/
 .apexcharts-xaxis-label, .apexcharts-yaxis-label {
