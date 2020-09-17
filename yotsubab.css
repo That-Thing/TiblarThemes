@@ -1,0 +1,240 @@
+/*Theme colors*/
+.dark-theme, .dark-theme-profile {
+    --primary-color: #000;
+    --link-color: #34345c;
+    --link-color-hover:#46467a;
+    --background-primary: #eef2ff;
+    --background-secondary: rgba(214, 214, 240, 0.98);
+    --background-tertiary: #d6daf0;
+    --background-layer: var(--background-primary);
+    --background-portal: #eef2ff;
+    --background-grey: #d6daf0;
+    --background-dark: #eef2ff;
+    --background-input: #ffffff;
+    --background-poll: #616161;
+    --background-poll-active: #626ec3;
+    --border-primary: #b7c5d9;
+    --border-secondary: #b7c5d9;
+    --border-tertiary: #b7c5d9;
+    --border-input: #777777;
+    --border-input-focus: #7292c3;
+    --text-placeholder: black;
+    --header-primary: black;
+    --text-normal: black;
+    --text-muted: black;
+    --text-light: black;
+    --header-border-radius: 0px;
+    --nav-tab: #000;
+    --nav-tab-active: #000;
+    --nav-border-primary: #000;
+    --nav-border-secondary: #000;
+    --sidebar-logo: #117743;
+    --sidebar-active: rgba(214, 218, 240, 0.98);
+    --sidebar-hover: rgba(214, 226, 255, 0.98);
+    --sidebar-text: black;
+    --sidebar-title: black;
+    --sidebar-icons: black;
+    --sidebar-icons-shadow: transparent;
+    --sidebar-notification: #15de97;
+    --button-background: #d6daf0;
+    --button-hover-box-shadow: rgba(35, 35, 35, 0.3);
+    --button-background-disabled: #838490;
+    --button-background-color: #d6daf0;
+    --button-text: black;
+    --button-fill: #000000;
+    --button-group-background: #484848;
+    --button-group-background-hover: #404040;
+    --post-border-radius: 0px;
+    --post-link-background: #34345c;
+    --post-header-border: #000;
+    --post-header-text: #34345c;
+    --post-reply-timestamp: black;
+    --post-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+	--post-bg: #d6daf0;
+    --profile-header: black;
+    --interaction-liked: transparent;
+    --interaction-liked-border-hover: #373544;
+    --interaction-liked-background-hover: #4349f330;
+    --interaction-secondary-hover: #2c2c3b;
+    --interaction-success: #414e3d;
+    --interaction-success-hover: #303b2c;
+    --interaction-purple: rgba(214, 214, 240, 0.98);
+    --interaction-purple-border-hover: #454856;
+    --profile-background: #4a4a4a;
+    --loader-background: #5c5c5c;
+    --loader-foreground: #767676;
+    --alert-blue-background: #d6daf0;
+}
+/*cyberpunk*/
+.cyberpunk-theme-profile {
+	--post-bg: #1a1a1a;
+}
+/*cozy*/
+.cozy-theme-profile {
+	--post-bg: #1a1a1a;
+}
+/*newspaper dark*/
+.newspaper-dark-theme-profile {
+	--post-bg: #383838;
+}
+/*Newspaper light*/
+.newspaper-light-theme-profile {
+	--post-bg: #ffffff;
+}
+/*skeleton*/
+.skeleton-theme-profile {
+	--post-bg: rgba(0, 0, 0, .3);
+}
+/*outrun*/
+.outrun-theme-profile {
+	--post-bg: #383838;
+}
+/*clover*/
+.clover-theme-profile {
+	--post-bg: #ffffff;
+}
+
+
+
+
+
+
+/*announcement, quick follow, and information icons*/
+.icon--1UwpU path {
+    fill: var(--primary-color);
+}
+/*Icons in leftmost navigation*/
+.icon--3vFJA path {
+    fill: var(--primary-color);
+}
+/*right sidebar cards*/
+.grey--1z3gD {
+    border-radius: 0em;
+	border: 1px solid var(--border-secondary);
+    border-left: none;
+    border-top: none;
+}
+/*Posts on this site*/
+.post--3pLv4 {
+    display: flex;
+    flex-direction: column;
+    background: var(--post-bg);
+    box-shadow: none;
+    border-radius: var(--post-border-radius);
+    position: relative;
+    border: 1px solid var(--border-secondary);
+    border-left: none;
+    border-top: none;
+}
+/*profile picture thumbnail*/
+.profile--WikmI img {
+    border-radius: 0px;
+}
+/*active item in sidebar*/
+.sidebarItem--2TWEC.active--3III3 {
+    border-radius: 0px;
+}
+/*hover on sidebar item*/
+.sidebarItem--2TWEC:hover:not(.active--3III3):not(.sidebarTitle--1jfK9) {
+    border-radius: 0px;
+}
+/*like button*/
+.footer--KE2m6 .interaction--25EeJ.liked--I72qQ {
+    border-radius: 0px;
+    border-color: var(--border-primary)!important;
+}
+/*like, reblog, and comment buttons*/
+.button--1fp3W {
+	border-radius: 0px;
+}
+/*leftmost navigation class*/
+.portal--2a5VF.active--HdduG {
+    border-radius: 0px;
+}
+.portal--2a5VF {
+    border-radius: 0px;
+}
+/*notification*/
+.notification--2BdHA {
+    border-radius: 0px;
+    color: black;
+}
+/*alert in notifications page*/
+.alert--LpQiR {
+    border-radius: 0px;
+}
+.card--2lVnx {
+    border-radius: 0px;
+}
+/*search*/
+.search--2ENIc {
+    border-radius: 0px;
+
+}
+/*profile picture in settings*/
+.image--1tee0 img {
+    border-radius: 0px;
+}
+/*text input*/
+.input--29MS2 {
+    border-radius: 0px;
+}
+/*theme selector boxes in appearance settings*/
+.cardSelector--2zfC9 {
+    border-radius: 0px;
+}
+/*NSFW content toggles*/
+.card--woqI8 {
+    border-radius: 0px;
+}
+/*images in profile themes previews*/
+.cardImage--2xfBv {
+    border-radius: 0px;
+}
+/*profile picture in bottom right*/
+.profile--OnfOQ {
+    border-radius: 0px;
+}
+/*profile popup when hovering over a user*/
+.popup--3thYS .header--_oaNs .cover--37Xkd>img {
+    border-radius: 0px!important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.popup--3thYS {
+    border-radius: 0px;
+}
+/*delete post confirmation popup*/
+.modal--qaLEU {
+    border-radius: 0px;
+}
+/*profile picture background*/
+.profile--WikmI {
+    border-radius: 0px;
+}
+/*storage used bar*/
+.progress--2Gksc {
+    background-color: #5b5b5b;
+    border-radius: 0px;
+}
+/*Posting form*/
+.modal--zxbcf {
+    border-radius: 0px;
+}
+.dropAreaWrapper--1Pwo7 .dropArea--2iqqV {
+    border-radius: 0px;
+}
+/*checkbox*/
+[type=checkbox]+span:not(.lever--3THdr) {
+    border-radius: 0px!important;
+
+}
+[type=checkbox]+span:not(.lever--3THdr):before, [type=checkbox]:not(.filled-in--fQ3IU)+span:not(.lever--3THdr):after {
+    border: 2px solid var(--primary-color);
+	border-radius: 0px!important;
+}
+/*toast message (little popup at bottom)*/
+.Toastify__toast {
+    border-radius: 0px;
+    background: var(--background-tertiary);
+}
