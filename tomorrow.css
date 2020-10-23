@@ -1,0 +1,244 @@
+/*Theme colors*/
+.dark-theme, .dark-theme-profile {
+    --primary-color: #ACACAC;
+    --link-color: #81A2BE;
+    --link-color-hover: #5f89ac!important;
+    --background-primary: #1D1F21;
+    --background-secondary: #282A2E;
+    --background-tertiary: #282A2E;
+    --background-layer: var(--background-primary);
+    --background-portal: #1D1F21;
+    --background-grey: #282A2E;
+    --background-dark: #1D1F21;
+    --background-input: #282A2E;
+    --background-poll: #616161;
+    --background-poll-active: #626ec3;
+    --border-primary: #353535;
+    --border-secondary: #353535;
+    --border-tertiary: #353535;
+    --border-input: #777777;
+    --border-input-focus: #7292c3;
+    --text-placeholder: #ACACAC;
+    --header-primary: #ACACAC;
+    --text-normal: #ACACAC;
+    --text-muted: #ACACAC;
+    --text-light: #ACACAC;
+    --header-border-radius: 0px;
+    --nav-tab: #ACACAC;
+    --nav-tab-active: #ACACAC;
+    --nav-border-primary: #ACACAC;
+    --nav-border-secondary: #ACACAC;
+    --sidebar-logo: #117743;
+    --sidebar-active: #282A2E;
+    --sidebar-hover: #353535;
+    --sidebar-text: #ACACAC;
+    --sidebar-title: #ACACAC;
+    --sidebar-icons: #ACACAC;
+    --sidebar-icons-shadow: transparent;
+    --sidebar-notification: #15de97;
+    --button-background: #282A2E;
+    --button-hover-box-shadow: rgba(35, 35, 35, 0.3);
+    --button-background-disabled: #908883;
+    --button-background-color: #282A2E;
+    --button-text: #81A2BE;
+    --button-fill: #81A2BE;
+    --button-group-background: #484848;
+    --button-group-background-hover: #404040;
+    --post-border-radius: 0px;
+    --post-link-background: #81A2BE;
+    --post-header-border: #ACACAC;
+    --post-header-text: #ACACAC;
+    --post-reply-timestamp: #ACACAC;
+    --post-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+	--post-bg: #282A2E;
+    --profile-header: #ACACAC;
+    --interaction-liked: transparent;
+    --interaction-liked-border-hover: #363544;
+    --interaction-liked-background-hover: #6343f330;
+    --interaction-secondary-hover: #2d2c3b;
+    --interaction-success: #414e3d;
+    --interaction-success-hover: #303b2c;
+    --interaction-purple: #282A2E;
+    --interaction-purple-border-hover: #454856;
+    --profile-background: #4a4a4a;
+    --loader-background: #5c5c5c;
+    --loader-foreground: #767676;
+    --alert-blue-background: #282A2E;
+}
+/*cyberpunk*/
+.cyberpunk-theme-profile {
+	--post-bg: #1a1a1a;
+}
+/*cozy*/
+.cozy-theme-profile {
+	--post-bg: #1a1a1a;
+}
+/*newspaper dark*/
+.newspaper-dark-theme-profile {
+	--post-bg: #383838;
+}
+/*Newspaper light*/
+.newspaper-light-theme-profile {
+	--post-bg: #ffffff;
+}
+/*skeleton*/
+.skeleton-theme-profile {
+	--post-bg: rgba(0, 0, 0, .3);
+}
+/*outrun*/
+.outrun-theme-profile {
+	--post-bg: #383838;
+}
+/*clover*/
+.clover-theme-profile {
+	--post-bg: #ffffff;
+}
+
+
+
+
+
+
+/*announcement, quick follow, and information icons*/
+.icon--1UwpU path {
+    fill: var(--primary-color);
+}
+/*Icons in leftmost navigation*/
+.icon--3vFJA path {
+    fill: var(--primary-color);
+}
+/*right sidebar cards*/
+.grey--1z3gD {
+    border-radius: 0em;
+	border: 1px solid var(--border-secondary);
+    border-left: none;
+    border-top: none;
+}
+/*Posts on this site*/
+.post--3pLv4 {
+    display: flex;
+    flex-direction: column;
+    background: var(--post-bg);
+    box-shadow: none;
+    border-radius: var(--post-border-radius);
+    position: relative;
+    border: 1px solid var(--border-secondary);
+    border-left: none;
+    border-top: none;
+}
+/*profile picture thumbnail*/
+.profile--WikmI img {
+    border-radius: 0px;
+}
+/*active item in sidebar*/
+.sidebarItem--2TWEC.active--3III3 {
+    border-radius: 0px;
+}
+/*hover on sidebar item*/
+.sidebarItem--2TWEC:hover:not(.active--3III3):not(.sidebarTitle--1jfK9) {
+    border-radius: 0px;
+}
+/*like button*/
+.footer--KE2m6 .interaction--25EeJ.liked--I72qQ {
+    border-radius: 0px;
+    border-color: var(--border-primary)!important;
+}
+/*like, reblog, and comment buttons*/
+.button--1fp3W {
+	border-radius: 0px;
+}
+/*leftmost navigation class*/
+.portal--2a5VF.active--HdduG {
+    border-radius: 0px;
+}
+.portal--2a5VF {
+    border-radius: 0px;
+}
+/*notification*/
+.notification--2BdHA {
+    border-radius: 0px;
+    color: black;
+}
+/*alert in notifications page*/
+.alert--LpQiR {
+    border-radius: 0px;
+}
+.card--2lVnx {
+    border-radius: 0px;
+}
+/*search*/
+.search--2ENIc {
+    border-radius: 0px;
+
+}
+/*profile picture in settings*/
+.image--1tee0 img {
+    border-radius: 0px;
+}
+/*text input*/
+.input--29MS2 {
+    border-radius: 0px;
+}
+/*theme selector boxes in appearance settings*/
+.cardSelector--2zfC9 {
+    border-radius: 0px;
+}
+/*NSFW content toggles*/
+.card--woqI8 {
+    border-radius: 0px;
+}
+/*images in profile themes previews*/
+.cardImage--2xfBv {
+    border-radius: 0px;
+}
+/*profile picture in bottom right*/
+.profile--OnfOQ {
+    border-radius: 0px;
+}
+/*profile popup when hovering over a user*/
+.popup--3thYS .header--_oaNs .cover--37Xkd>img {
+    border-radius: 0px!important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.popup--3thYS {
+    border-radius: 0px;
+}
+/*delete post confirmation popup*/
+.modal--qaLEU {
+    border-radius: 0px;
+}
+/*profile picture background*/
+.profile--WikmI {
+    border-radius: 0px;
+}
+/*storage used bar*/
+.progress--2Gksc {
+    background-color: #5b5b5b;
+    border-radius: 0px;
+}
+/*Posting form*/
+.modal--zxbcf {
+    border-radius: 0px;
+}
+.dropAreaWrapper--1Pwo7 .dropArea--2iqqV {
+    border-radius: 0px;
+}
+/*checkbox*/
+[type=checkbox]+span:not(.lever--3THdr) {
+    border-radius: 0px!important;
+
+}
+[type=checkbox]+span:not(.lever--3THdr):before, [type=checkbox]:not(.filled-in--fQ3IU)+span:not(.lever--3THdr):after {
+    border: 2px solid var(--primary-color);
+	border-radius: 0px!important;
+}
+/*toast message (little popup at bottom)*/
+.Toastify__toast {
+    border-radius: 0px;
+    background: var(--background-tertiary);
+}
+.input--29MS2 {
+    border-radius: 0px;
+    background: #282A2E;
+}
